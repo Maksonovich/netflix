@@ -1,7 +1,7 @@
 import useSWR from 'swr';
 import fetcher from '@/lib/fetcher';
 
-const useBillboard = () => {
+export const useBillboard = () => {
     const { data, error, isLoading } = useSWR('/api/random', fetcher, {
         revalidateIfStale: false,
         revalidateOnFocus: false,
@@ -10,5 +10,3 @@ const useBillboard = () => {
 
     return { data, error, isLoading }
 }
-
-export default useBillboard;
