@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react';
 
 //Исправить в будущем импорт хука usebillboard должно быть с большой useBillboaed !!!
-import useBillboard from "../hooks/usebillboard";
+import useBillboard from "../hooks/useBillboard";
 
 import { AiOutlineInfoCircle } from 'react-icons/ai'
 import { PlayButton } from './PlayButton';
