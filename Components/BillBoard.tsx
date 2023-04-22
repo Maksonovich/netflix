@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 // import { InformationCircleIcon } from '@heroicons/react/24/outline';
 
 import { PlayButton } from '@/Components/PlayButton';
-import { useBillboard } from '@/hooks/useBillboard';
+import useBillboard from '../hooks/useBillboard';
 import useInfoModalStore from '@/hooks/useInfoModal';
 
 const Billboard: React.FC = () => {
