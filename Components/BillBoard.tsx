@@ -1,4 +1,6 @@
 import React, { useCallback, useState } from 'react';
+
+//Исправить в будущем импорт хука usebillboard должно быть с большой useBillboaed !!!
 import useBillboard from "../hooks/usebillboard";
 
 import { AiOutlineInfoCircle } from 'react-icons/ai'
